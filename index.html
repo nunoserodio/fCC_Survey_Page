@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Language Course Feedback</title>
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+	<div class="box">
+		<header>
+		  <h1 id="title">Language Course Feedback</h1>
+	  
+		  <p id="description">Your teacher and our team would love it if you could share your opinion.</p>
+		</header>
+		
+		<form id="survey-form">
+		  <label for="name" id="name-label">Name:</label>
+		  <input type="text" id="name" name="name" class="form-input" placeholder="Your name goes here" required>
+		  <br>
+		
+		  <label for="email" id="email-label">Email:</label>
+		  <input type="email" id="email" name="email" class="form-input" placeholder="your-email@domain.com" required>
+		  <br>
+		
+		  <label for="number" id="number-label">Age:</label>
+		  <input type="number" id="number" name="age" class="form-input" min="18" max="99" placeholder="21" required>
+		  <br>
+			
+		  <label for="teacher-name">Teacher's name:</label>
+		  <input type="text" id="teacher-name" name="teacher-name" class="form-input" required>
+		  <br>
+		
+		  <label for="dropdown"id="level">Level:</label>
+		  <select id="dropdown" name="level" class="form-input" required>
+			<option disabled selected value>Select current level</option>
+			<option value="A1.1">A1.1</option>
+			<option value="A1.2">A1.2</option>
+			<option value="A2.1">A2.1</option>
+			<option value="A2.2">A2.2</option>
+			<option value="B1.1">B1.1</option>
+			<option value="B1.2">B1.2</option>
+		  </select>
+		  <br>
+		  
+		  <fieldset>
+			<legend>How satisfied are you with your language class?</legend>
+			  <label for="very-satisfied-user">
+				<input type="radio" id="very-satisfied-user" name="user-satisfaction" class="input-radio" value="very-satisfied-user" checked>Very satisfied
+			  </label>
+			  <br>
+	
+			  <label for="satisfied-user">
+				<input type="radio" id="satisfied-user" name="user-satisfaction" class="input-radio" value="satisfied-user">Satisfied
+			  </label>
+			  <br>
+	
+			  <label for="neutral-user">
+				<input type="radio" id="neutral-user" name="user-satisfaction" class="input-radio" value="neutral-user">Neutral
+			  </label>
+			  <br>
+	
+			  <label for="dissatisfied-user">
+				<input type="radio" id="dissatisfied-user" name="user-satisfaction" class="input-radio" value="dissatisfied-user">Dissatisfied
+			  </label>
+			  <br>
+	
+			  <label for="very-dissatisfied-user">
+				<input type="radio" id="very-dissatisfied-user" name="user-satisfaction" class="input-radio" value="very-dissatisfied-user">Very dissatisfied
+			  </label>
+			  <br>
+		  </fieldset>
+		  <br>
+		  
+		  <fieldset>
+			<legend>How much of your target language was generally spoken in class?</legend>
+			  <label for="too-much">
+				<input type="radio" id="too-much" name="language-amount" class="input-radio" value="too-much" checked>Too much
+			  </label>
+			  <br>
+			  
+			  <label for="moderate">
+				<input type="radio" id="moderate" name="language-amount" class="input-radio" value="moderate" checked>A moderate amount
+			  </label>
+			  <br>
+			  
+			  <label for="too-little">
+				<input type="radio" id="too-little" name="language-amount" class="input-radio" value="too-little">Too little
+			  </label>
+			  <br>
+		  </fieldset>
+		  <br>
+		  
+		  <fieldset>
+			<legend>How likely are you to recommend our courses to a friend?</legend>
+			  <label for="very-likely">
+				<input type="radio" id="very-likely" name="recommendation" class="input-radio" value="very-likely" checked>Very likely
+			  </label>
+			  <br>
+	
+			  <label for="likely">
+				<input type="radio" id="likely" name="recommendation" class="input-radio" value="likely">Likely
+			  </label>
+			  <br>
+	
+			  <label for="maybe">
+				<input type="radio" id="maybe" name="recommendation" class="input-radio" value="maybe">Maybe
+			  </label>
+			  <br>
+	
+			  <label for="not-likely">
+				<input type="radio" id="not-likely" name="recommendation" class="input-radio" value="not-likely">Not likely
+			  </label>
+			  <br>
+		  </fieldset>
+		  <br>
+		  
+		  <label id="textarea">How could we improve your experience?</label>
+		  <br>
+		  <textarea id="textarea" name="comment" class="form-input input-textarea">
+		  </textarea>
+		  <br>
+		  <br>
+		  
+		  <label for="contact"><input type="checkbox" id="contact" class="input-checkbox" value="add-maketing">I would like to be updated on new courses and offers.</label>
+		  <br>
+		  <br>
+		  
+		  <label for="publish"><input type="checkbox" id="publish" class="input-checkbox" value="add-publish">I consent to my review being anonymised and published on the website.</label>
+		  <br>
+		  <br>
+		  
+		  <div class="submit-section">
+		  <input type="submit" id="submit" class="submit-button">
+		  </div>
+		</form>
+	  </div>   
+</body>
+</html>
