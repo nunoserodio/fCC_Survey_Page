@@ -5,7 +5,7 @@ body {
 	font-size: 1.2rem;
 	color: white;
 	line-height: 1.5;
-	background-image: url(../images/language-background.jpg);
+	background-image: url(./images/language-background.jpg);
 	background-size: cover;
 	background-position: center;
 }
